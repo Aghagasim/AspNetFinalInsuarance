@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Code Academy\\source\\repos\\Jotex\\Asp.net.final\\Jotex.csproj": {}
+    "C:\\Users\\Code Academy\\Desktop\\AspNetFinalInsuarance\\Jotex\\Asp.net.final\\Jotex.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Code Academy\\source\\repos\\Jotex\\Asp.net.final\\Jotex.csproj": {
+    "C:\\Users\\Code Academy\\Desktop\\AspNetFinalInsuarance\\Jotex\\Asp.net.final\\Jotex.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Code Academy\\source\\repos\\Jotex\\Asp.net.final\\Jotex.csproj",
+        "projectUniqueName": "C:\\Users\\Code Academy\\Desktop\\AspNetFinalInsuarance\\Jotex\\Asp.net.final\\Jotex.csproj",
         "projectName": "Jotex",
-        "projectPath": "C:\\Users\\Code Academy\\source\\repos\\Jotex\\Asp.net.final\\Jotex.csproj",
+        "projectPath": "C:\\Users\\Code Academy\\Desktop\\AspNetFinalInsuarance\\Jotex\\Asp.net.final\\Jotex.csproj",
         "packagesPath": "C:\\Users\\Code Academy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Code Academy\\source\\repos\\Jotex\\Asp.net.final\\obj\\",
+        "outputPath": "C:\\Users\\Code Academy\\Desktop\\AspNetFinalInsuarance\\Jotex\\Asp.net.final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -63,7 +63,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             }
           },
           "imports": [
