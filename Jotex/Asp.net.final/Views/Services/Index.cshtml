@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Service>
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- start page-title -->
+<section class="page-title">
+    <div class="page-title-container">
+        <div class="page-title-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <h2>Services</h2>
+                        <ol class="breadcrumb">
+                            <li><a asp-controller="services" asp-action="index">Home</a></li>
+                            <li>Services</li>
+                        </ol>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </div>
+    </div>
+</section>
+<!-- end page-title -->
+<!-- start service-section -->
+<section class="service-section section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="section-title-s2">
+                    <span>Our best services</span>
+                    <h2>Best insurance services for our client’s</h2>
+                </div>
+            </div>
+            <div class="col col-xs-12">
+                <div class="service-slider">
+                    @foreach (var item in Model)
+                    {
+                        <div class="grid">
+                            <a href="#">
+                                <i class="@item.Icon"></i>
+                                <h3>@item.Title</h3>
+                            </a>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- end container -->
+</section>
+<!-- end service-section -->
