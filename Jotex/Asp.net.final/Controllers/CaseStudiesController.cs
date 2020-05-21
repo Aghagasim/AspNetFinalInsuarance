@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Jotex.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Jotex.Controllers
 {
     public class CaseStudiesController : Controller
     {
-        public IActionResult Index()
+        private readonly JotexDbContext _context;
+        public CaseStudiesController(JotexDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.CaseStudies.ToListAsync());
         }
         public IActionResult Details()
         {

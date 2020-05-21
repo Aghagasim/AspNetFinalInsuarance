@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<CaseStudies>
 @{
     ViewData["Title"] = "Index";
 }
@@ -12,7 +12,7 @@
                     <div class="col col-xs-12">
                         <h2>Case studies</h2>
                         <ol class="breadcrumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a asp-controller="CaseStudies" asp-action="index">Home</a></li>
                             <li>Case studies</li>
                         </ol>
                     </div>

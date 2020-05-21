@@ -11,5 +11,6 @@ namespace Jotex.Data
     {
         public JotexDbContext(DbContextOptions<JotexDbContext> options) : base(options) { }
         public DbSet<Service> Services { get; set; }
+        public DbSet<CaseStudies> CaseStudies { get; set; }
     }
 }
